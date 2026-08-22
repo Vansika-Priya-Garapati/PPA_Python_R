@@ -1,0 +1,32 @@
+Overview of Linguistic Feature Extraction
+
+**Packages used to extract linguistic features:**
+-  `tidyverse` v2.0.0
+- `stringr` v1.6.0
+- `fs` - v2.1.0
+- `udpipe` - v0.8.16
+
+**WHY**: These libraries execute different aspects of code to aid in computing linguistic metrics.
+
+**Features Extracted from Patient Text Transcripts**
+  
+- num_utterances = Counts total sentences
+- total_words = Total words spoken
+- unique_words = Count of unique root words
+- mlu = Average number of words per sentence
+- ttr = Measures how many words are unique
+- noun_count = Number of nouns and proper nouns
+- verb_count = Number of verbs
+- adj_count = Number of adjectives
+- noun_verb_ratio = Measures if patient struggles with nouns (low ratio) or verbs (high ratio)
+- closed_class_count = Number of Pronouns, Prepositions, Conjunctions, Auxiliary verbs, Determiners
+- open_class_count = Number of Nouns, Proper nouns, Verbs, Adjectives, Adverbs
+- closed_open_ratio = Measures if patient struggles with grammar (low ratio)
+- pause_count = Number of silent pauses (.....)
+- filler_count = Number of hesitant pauses (um,uh)
+- pause_rate_per_utt = Measures how often silent pauses (....) occur
+- filler_rate_per_utt = Measures how often hesitant pauses (um,uh) occur
+  
+This combination will gather a rich set of linguistic data for PPA Variant classification.
+  
+**IMPORTANT: The Code was executed in R Studio by utilizing R**
