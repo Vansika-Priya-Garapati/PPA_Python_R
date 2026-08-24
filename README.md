@@ -47,6 +47,15 @@ Trained and evaluated ML model. Computed learning curve, classification report, 
 Trained and evaluated ML model. Computed learning curve, classification report, confusion matrices, and executed SHAP analysis
 
 ---
+
+## 4. Code & Manuscript References
+
+* **OSF Project:** https://doi.org/10.17605/OSF.IO/BYZUD
+* **OSF Pre-Registration:** https://doi.org/10.17605/OSF.IO/VMN9S
+* **Graphical Abstract:** https://doi.org/10.6084/m9.figshare.33322230
+
+---
+
 *Maintained by Vansika Priya Garapati*
 
 
